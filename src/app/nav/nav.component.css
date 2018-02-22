@@ -1,0 +1,15 @@
+:host() {
+    display: flex;
+}
+.nav {
+    margin: 0;
+    display: block;
+    list-style: none;
+}
+.nav>li{
+    float: left;
+    margin-right: 10px;
+}
+.nav>li.active {
+    text-decoration: underline;
+}

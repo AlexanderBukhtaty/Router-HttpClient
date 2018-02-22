@@ -1,0 +1,6 @@
+<ul class="nav">
+  <!--<li routerLink="/list" routerLinkActive="active">list</li>-->
+  <li routerLink="/list" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">list</li>
+  <li [routerLink]="['/list',testId]" routerLinkActive="active">list-item</li>
+  <li routerLink="/lazy/test" routerLinkActive="active">lazy</li>
+</ul>
